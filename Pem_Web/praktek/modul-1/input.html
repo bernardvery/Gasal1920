@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<form method="POST" action="terima.php">
+	NIM:<br>
+	<input type="text" name="nim" size="20"><br>
+	NAMA:<br>
+	<input type="text" name="nama" size="30"><br>
+	PROGRAM STUDI:<br>
+	<select name="progdi">
+		<option value="1">Teknik Informatika</option>
+		<option value="2">Sistem Informasi</option>
+		<option value="3">Ilmu Komunikasi</option>
+   </select><br>
+	KELAS:<br>
+	<input type="radio" name="kelas" value="pg" checked> Pagi
+	<input type="radio" name="kelas" value="sr"> Sore<br>
+	TGL_LAHIR:<br>
+	<input type="date" name="tgl_lhr"><br>
+	MINAT:<br>
+	<input type="checkbox" name="minat[]" value="program"> Programming<br>
+	<input type="checkbox" name="minat[]" value="desain"> Desain<br>
+	PASSWORD:<br>
+	<input type="password" name="pass" size="10"><br>
+	<br>
+	<input type="submit" name="submit">
+	<input type="reset" name="reset">
+</form>
+</body>
+</html>
